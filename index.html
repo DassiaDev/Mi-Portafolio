@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dassia | Estudiante de Desarrollo de Software</title>
+  <meta name="description" content="Portafolio personal y presentación profesional de Dassia, estudiante de Desarrollo de Software. Formación en programación, desarrollo web, aplicaciones móviles y bases de datos.">
+  <meta name="theme-color" content="#0b0813">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome para Iconografía Técnica y Social -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Hoja de Estilos -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Fondo Ambiental Tecnológico en Tonos Púrpura / Lila -->
+  <div class="ambient-glow glow-top" aria-hidden="true"></div>
+  <div class="ambient-glow glow-middle" aria-hidden="true"></div>
+  <div class="ambient-glow glow-bottom" aria-hidden="true"></div>
+  <div class="bg-grid-overlay" aria-hidden="true"></div>
+
+  <!-- =========================================================================
+       1. NAVBAR
+       ========================================================================= -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#inicio" class="nav-logo" aria-label="Volver al inicio">
+        <span class="logo-symbol">&lt;/&gt;</span>
+        <span class="logo-name">Dassia<span class="logo-dot">.</span></span>
+      </a>
+
+      <!-- Menú de Navegación -->
+      <nav class="nav-menu" id="navMenu" aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+          <li><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
+          <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+          <li><a href="#formacion" class="nav-link">Formación</a></li>
+          <li><a href="#intereses" class="nav-link">Intereses</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <!-- Botón de Contacto en Desktop y Botón Hamburguesa Móvil -->
+      <div class="nav-actions">
+        <a href="#contacto" class="btn btn-outline-nav">
+          <span>Conectar</span>
+          <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="navMenu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================================
+         2. HERO / INICIO
+         ========================================================================= -->
+    <section class="hero-section" id="inicio">
+      <div class="container hero-container">
+        
+        <!-- Contenido textual del Hero -->
+        <div class="hero-content reveal-on-scroll">
+          <div class="hero-badge">
+            <span class="badge-pulse" aria-hidden="true"></span>
+            <span>En formación activa • Futura Desarrolladora</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hola, soy <span class="gradient-text">Dassia</span>
+          </h1>
+
+          <h2 class="hero-subtitle">
+            Estudiante de Desarrollo de Software
+          </h2>
+
+          <p class="hero-description">
+            Me interesa crear soluciones digitales, aprender nuevas tecnologías y transformar ideas en aplicaciones funcionales.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#sobre-mi" class="btn btn-primary">
+              <span>Conóceme</span>
+              <i class="fa-solid fa-user-circle" aria-hidden="true"></i>
+            </a>
+            <a href="#contacto" class="btn btn-glass">
+              <span>Contactarme</span>
+              <i class="fa-regular fa-paper-plane" aria-hidden="true"></i>
+            </a>
+          </div>
+
+          <!-- Indicadores sutiles de enfoque -->
+          <div class="hero-focus-tags">
+            <span class="focus-tag"><i class="fa-solid fa-code"></i> Código Limpio</span>
+            <span class="focus-tag"><i class="fa-solid fa-mobile-screen"></i> Web & Móvil</span>
+            <span class="focus-tag"><i class="fa-solid fa-database"></i> Bases de Datos</span>
+          </div>
+        </div>
+
+        <!-- Elemento visual interactivo de desarrollo (Terminal moderna con código real) -->
+        <div class="hero-visual reveal-on-scroll delay-1">
+          <div class="code-terminal-card">
+            <!-- Barra superior estilo IDE -->
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="dot dot-close"></span>
+                <span class="dot dot-minimize"></span>
+                <span class="dot dot-expand"></span>
+              </div>
+              <div class="terminal-tabs">
+                <div class="terminal-tab active">
+                  <i class="fa-solid fa-file-code tab-icon"></i>
+                  <span>DassiaProfile.java</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cuerpo del editor de código -->
+            <div class="terminal-body">
+              <div class="code-lines">
+                <span class="line-num">01</span>
+                <span class="line-num">02</span>
+                <span class="line-num">03</span>
+                <span class="line-num">04</span>
+                <span class="line-num">05</span>
+                <span class="line-num">06</span>
+                <span class="line-num">07</span>
+                <span class="line-num">08</span>
+                <span class="line-num">09</span>
+                <span class="line-num">10</span>
+                <span class="line-num">11</span>
+                <span class="line-num">12</span>
+                <span class="line-num">13</span>
+                <span class="line-num">14</span>
+              </div>
+              <pre class="code-content"><code><span class="syntax-keyword">public class</span> <span class="syntax-class">Dassia</span> {
+    <span class="syntax-keyword">public static void</span> <span class="syntax-method">main</span>(String[] args) {
+        String rol = <span class="syntax-string">"Estudiante de Software"</span>;
+        String meta = <span class="syntax-string">"Aprender y construir"</span>;
+        
+        String[] pasiones = {
+            <span class="syntax-string">"Desarrollo Web"</span>,
+            <span class="syntax-string">"Apps Móviles"</span>,
+            <span class="syntax-string">"Bases de Datos"</span>
+        };
+        
+        System.out.println(<span class="syntax-string">"Bienvenida a mi espacio digital."</span>);
+    }
+}</code></pre>
+            </div>
+
+            <!-- Barra de estado inferior estilo VS Code -->
+            <div class="terminal-footer">
+              <div class="footer-left">
+                <i class="fa-solid fa-code-branch"></i>
+                <span>main*</span>
+                <i class="fa-solid fa-circle-check"></i>
+                <span>0 errores</span>
+              </div>
+              <div class="footer-right">
+                <span>UTF-8</span>
+                <span>Java / C# / Web</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Badges tecnológicos flotantes -->
+          <div class="floating-badge badge-mobile">
+            <i class="fa-brands fa-react badge-icon"></i>
+            <div>
+              <span class="badge-title">React Native</span>
+              <span class="badge-sub">Móvil & Expo</span>
+            </div>
+          </div>
+
+          <div class="floating-badge badge-sql">
+            <i class="fa-solid fa-database badge-icon"></i>
+            <div>
+              <span class="badge-title">SQL</span>
+              <span class="badge-sub">Estructuración</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Indicador sutil de scroll -->
+      <a href="#sobre-mi" class="scroll-down-indicator" aria-label="Desplazarse a la sección Sobre mí">
+        <span class="scroll-mouse">
+          <span class="scroll-wheel"></span>
+        </span>
+      </a>
+    </section>
+
+    <!-- =========================================================================
+         3. SOBRE MÍ
+         ========================================================================= -->
+    <section class="section about-section" id="sobre-mi">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag"><i class="fa-solid fa-fingerprint"></i> Perfil Personal</span>
+          <h2 class="section-title">Sobre <span class="gradient-text">mí</span></h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="about-grid">
+          
+          <!-- Narrativa profesional auténtica -->
+          <div class="about-card-narrative glass-card reveal-on-scroll">
+            <div class="narrative-icon-wrap">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <h3 class="narrative-title">Mi camino en la tecnología</h3>
+            <p class="narrative-text">
+              Soy estudiante universitaria de la carrera de <strong>Desarrollo de Software</strong>. Actualmente me encuentro en una etapa activa de formación, fortaleciendo mis bases en lógica de programación, arquitectura de datos y creación de interfaces interactivas.
+            </p>
+            <p class="narrative-text">
+              Me motiva entender cómo funcionan las herramientas digitales por dentro: desde el diseño estructurado de una base de datos hasta la experiencia visual que conecta con el usuario final a través de una aplicación web o móvil.
+            </p>
+            <p class="narrative-text">
+              Estoy construyendo mi trayectoria con dedicación, manteniendo una actitud abierta al aprendizaje colaborativo y con el propósito constante de transformar el conocimiento teórico en proyectos útiles.
+            </p>
+          </div>
+
+          <!-- Rasgos de trabajo y valores personales -->
+          <div class="about-traits-column">
+            <h3 class="traits-heading reveal-on-scroll">Cómo abordo cada reto</h3>
+            
+            <div class="traits-grid">
+              
+              <div class="trait-card glass-card reveal-on-scroll delay-1">
+                <div class="trait-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div class="trait-info">
+                  <h4>Curiosidad</h4>
+                  <p>Inquietud constante por investigar el origen de los problemas y descubrir cómo funcionan las nuevas tecnologías.</p>
+                </div>
+              </div>
+
+              <div class="trait-card glass-card reveal-on-scroll delay-1">
+                <div class="trait-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                <div class="trait-info">
+                  <h4>Creatividad</h4>
+                  <p>Búsqueda de alternativas prácticas y estéticas para estructurar código y diseñar interfaces amigables.</p>
+                </div>
+              </div>
+
+              <div class="trait-card glass-card reveal-on-scroll delay-2">
+                <div class="trait-icon"><i class="fa-solid fa-book-open-reader"></i></div>
+                <div class="trait-info">
+                  <h4>Interés por aprender</h4>
+                  <p>Disposición proactiva hacia el autoestudio, la práctica constante y la asimilación de buenas prácticas.</p>
+                </div>
+              </div>
+
+              <div class="trait-card glass-card reveal-on-scroll delay-2">
+                <div class="trait-icon"><i class="fa-solid fa-heart"></i></div>
+                <div class="trait-info">
+                  <h4>Empatía</h4>
+                  <p>Capacidad para escuchar, comprender diferentes perspectivas y diseñar pensando en las personas que usarán el software.</p>
+                </div>
+              </div>
+
+              <div class="trait-card glass-card reveal-on-scroll delay-3">
+                <div class="trait-icon"><i class="fa-solid fa-puzzle-piece"></i></div>
+                <div class="trait-info">
+                  <h4>Soluciones útiles</h4>
+                  <p>Enfoque en crear aplicaciones orientadas a resolver necesidades cotidianas de forma clara y funcional.</p>
+                </div>
+              </div>
+
+              <div class="trait-card glass-card reveal-on-scroll delay-3">
+                <div class="trait-icon"><i class="fa-solid fa-arrow-trend-up"></i></div>
+                <div class="trait-info">
+                  <h4>Mejora continua</h4>
+                  <p>Convicción de que cada error es una oportunidad de optimizar el código y evolucionar como futura profesional.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         4. HABILIDADES / TECNOLOGÍAS
+         ========================================================================= -->
+    <section class="section skills-section" id="habilidades">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag"><i class="fa-solid fa-layer-group"></i> Stack Tecnológico</span>
+          <h2 class="section-title">Lo que estoy <span class="gradient-text">aprendiendo</span></h2>
+          <p class="section-subtitle">
+            Tecnologías, lenguajes y herramientas con las que practico y desarrollo mis conocimientos académicos día a día.
+          </p>
+          <div class="section-divider"></div>
+        </div>
+
+        <!-- Grupo 1: Lenguajes y Tecnologías -->
+        <div class="skills-block reveal-on-scroll">
+          <div class="skills-group-header">
+            <i class="fa-solid fa-code group-icon"></i>
+            <h3 class="skills-group-title">Lenguajes y Tecnologías</h3>
+          </div>
+
+          <div class="tech-grid">
+            
+            <!-- Java -->
+            <div class="tech-card glass-card">
+              <div class="tech-icon-wrap java-color">
+                <i class="fa-brands fa-java"></i>
+              </div>
+              <h4 class="tech-name">Java</h4>
+              <span class="tech-status-badge">En desarrollo</span>
+              <p class="tech-desc">Programación orientada a objetos, lógica algorítmica y estructuras de control.</p>
+            </div>
+
+            <!-- C# -->
+            <div class="tech-card glass-card">
+              <div class="tech-icon-wrap csharp-color">
+                <i class="fa-solid fa-hashtag"></i>
+              </div>
+              <h4 class="tech-name">C#</h4>
+              <span class="tech-status-badge">En desarrollo</span>
+              <p class="tech-desc">Desarrollo de aplicaciones bajo el ecosistema .NET y principios de POO.</p>
+            </div>
+
+            <!-- HTML5 -->
+            <div class="tech-card glass-card">
+              <div class="tech-icon-wrap html-color">
+                <i class="fa-brands fa-html5"></i>
+              </div>
+              <h4 class="tech-name">HTML5</h4>
+              <span class="tech-status-badge">En aprendizaje</span>
+              <p class="tech-desc">Estructuración semántica, jerarquía web y buenas prácticas de accesibilidad.</p>
+            </div>
+
+            <!-- CSS3 -->
+            <div class="tech-card glass-card">
+              <div class="tech-icon-wrap css-color">
+                <i class="fa-brands fa-css3-alt"></i>
+              </div>
+              <h4 class="tech-name">CSS3</h4>
+              <span class="tech-status-badge">En aprendizaje</span>
+              <p class="tech-desc">Maquetación moderna con Flexbox, CSS Grid, diseño responsivo y efectos visuales.</p>
+            </div>
+
+            <!-- JavaScript -->
+            <div class="tech-card glass-card">
+              <div class="tech-icon-wrap js-color">
+                <i class="fa-brands fa-js"></i>
+              </div>
+              <h4 class="tech-name">JavaScript</h4>
+              <span class="tech-status-badge">En desarrollo</span>
+              <p class="tech-desc">Interactividad en el navegador, manipulación del DOM y fundamentos de ES6+.</p>
+            </div>
+
+            <!-- React Native -->
+            <div class="tech-card glass-card">
+              <div class="tech-icon-wrap react-color">
+                <i class="fa-brands fa-react"></i>
+              </div>
+              <h4 class="tech-name">React Native</h4>
+              <span class="tech-status-badge">En exploración</span>
+              <p class="tech-desc">Creación de componentes móviles multiplataforma y lógica de interfaces.</p>
+            </div>
+
+            <!-- Expo -->
+            <div class="tech-card glass-card">
+              <div class="tech-icon-wrap expo-color">
+                <i class="fa-solid fa-shapes"></i>
+              </div>
+              <h4 class="tech-name">Expo</h4>
+              <span class="tech-status-badge">En exploración</span>
+              <p class="tech-desc">Herramienta para agilizar pruebas, desarrollo y despliegue en entornos móviles.</p>
+            </div>
+
+            <!-- SQL -->
+            <div class="tech-card glass-card">
+              <div class="tech-icon-wrap sql-color">
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <h4 class="tech-name">SQL</h4>
+              <span class="tech-status-badge">En desarrollo</span>
+              <p class="tech-desc">Consultas, relaciones entre tablas, modelado y persistencia de información.</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Grupo 2: Herramientas -->
+        <div class="skills-block reveal-on-scroll delay-1">
+          <div class="skills-group-header">
+            <i class="fa-solid fa-toolbox group-icon"></i>
+            <h3 class="skills-group-title">Herramientas de Desarrollo</h3>
+          </div>
+
+          <div class="tools-grid">
+            
+            <!-- Visual Studio -->
+            <div class="tool-card glass-card">
+              <div class="tool-icon"><i class="fa-brands fa-windows"></i></div>
+              <div class="tool-details">
+                <h4 class="tool-name">Visual Studio</h4>
+                <p class="tool-desc">Entorno para desarrollo en C# y proyectos .NET.</p>
+              </div>
+            </div>
+
+            <!-- Visual Studio Code -->
+            <div class="tool-card glass-card">
+              <div class="tool-icon"><i class="fa-solid fa-terminal"></i></div>
+              <div class="tool-details">
+                <h4 class="tool-name">Visual Studio Code</h4>
+                <p class="tool-desc">Editor principal para desarrollo web, scripts y extensiones.</p>
+              </div>
+            </div>
+
+            <!-- NetBeans -->
+            <div class="tool-card glass-card">
+              <div class="tool-icon"><i class="fa-solid fa-cube"></i></div>
+              <div class="tool-details">
+                <h4 class="tool-name">NetBeans</h4>
+                <p class="tool-desc">IDE empleado en prácticas de programación orientada a objetos en Java.</p>
+              </div>
+            </div>
+
+            <!-- Git -->
+            <div class="tool-card glass-card">
+              <div class="tool-icon"><i class="fa-brands fa-git-alt"></i></div>
+              <div class="tool-details">
+                <h4 class="tool-name">Git</h4>
+                <p class="tool-desc">Control de versiones, ramificación y seguimiento de cambios en el código.</p>
+              </div>
+            </div>
+
+            <!-- GitHub -->
+            <div class="tool-card glass-card">
+              <div class="tool-icon"><i class="fa-brands fa-github"></i></div>
+              <div class="tool-details">
+                <h4 class="tool-name">GitHub</h4>
+                <p class="tool-desc">Alojamiento remoto de repositorios, colaboración y respaldo de prácticas.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         5. FORMACIÓN
+         ========================================================================= -->
+    <section class="section education-section" id="formacion">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag"><i class="fa-solid fa-book-bookmark"></i> Trayectoria Académica</span>
+          <h2 class="section-title">Mi <span class="gradient-text">formación</span></h2>
+          <p class="section-subtitle">
+            Pilares y materias esenciales que componen mi formación universitaria en Desarrollo de Software.
+          </p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="timeline-container">
+          
+          <!-- Elemento 1: Programación -->
+          <div class="timeline-node reveal-on-scroll">
+            <div class="timeline-marker">
+              <div class="marker-circle">
+                <i class="fa-solid fa-code"></i>
+              </div>
+            </div>
+            <div class="timeline-card glass-card">
+              <span class="timeline-category">Área Fundamental</span>
+              <h3 class="timeline-title">Programación & Algoritmos</h3>
+              <p class="timeline-desc">
+                Desarrollo de lógica estructurada, resolución de problemas algorítmicos, paradigmas de Programación Orientada a Objetos (POO), manejo de estructuras de datos y modularidad.
+              </p>
+              <div class="timeline-tags">
+                <span>Lógica</span>
+                <span>POO</span>
+                <span>Estructuras de Datos</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Elemento 2: Desarrollo de Aplicaciones -->
+          <div class="timeline-node reveal-on-scroll delay-1">
+            <div class="timeline-marker">
+              <div class="marker-circle">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+            </div>
+            <div class="timeline-card glass-card">
+              <span class="timeline-category">Área de Aplicación</span>
+              <h3 class="timeline-title">Desarrollo de Aplicaciones</h3>
+              <p class="timeline-desc">
+                Creación de aplicaciones funcionales para escritorio y entornos móviles, integrando interfaces gráficas, gestión de eventos y conexión con fuentes de datos.
+              </p>
+              <div class="timeline-tags">
+                <span>Apps de Escritorio</span>
+                <span>Móvil</span>
+                <span>Eventos</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Elemento 3: Bases de Datos -->
+          <div class="timeline-node reveal-on-scroll delay-1">
+            <div class="timeline-marker">
+              <div class="marker-circle">
+                <i class="fa-solid fa-database"></i>
+              </div>
+            </div>
+            <div class="timeline-card glass-card">
+              <span class="timeline-category">Área de Persistencia</span>
+              <h3 class="timeline-title">Bases de Datos</h3>
+              <p class="timeline-desc">
+                Diseño conceptual y lógico, diagramas entidad-relación, normalización de tablas y formulación de consultas mediante lenguaje SQL para garantizar la integridad de la información.
+              </p>
+              <div class="timeline-tags">
+                <span>Modelo E-R</span>
+                <span>Normalización</span>
+                <span>Consultas SQL</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Elemento 4: Desarrollo Web -->
+          <div class="timeline-node reveal-on-scroll delay-2">
+            <div class="timeline-marker">
+              <div class="marker-circle">
+                <i class="fa-solid fa-globe"></i>
+              </div>
+            </div>
+            <div class="timeline-card glass-card">
+              <span class="timeline-category">Área Web</span>
+              <h3 class="timeline-title">Desarrollo Web</h3>
+              <p class="timeline-desc">
+                Maquetación semántica, estilos responsivos adaptables a múltiples dispositivos, manipulación del DOM con JavaScript e introducción a arquitecturas web modernas.
+              </p>
+              <div class="timeline-tags">
+                <span>HTML / CSS</span>
+                <span>JavaScript</span>
+                <span>Diseño Responsivo</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Elemento 5: Sistemas Operativos y Redes -->
+          <div class="timeline-node reveal-on-scroll delay-2">
+            <div class="timeline-marker">
+              <div class="marker-circle">
+                <i class="fa-solid fa-network-wired"></i>
+              </div>
+            </div>
+            <div class="timeline-card glass-card">
+              <span class="timeline-category">Área de Infraestructura</span>
+              <h3 class="timeline-title">Sistemas Operativos & Redes</h3>
+              <p class="timeline-desc">
+                Comprensión de la gestión de memoria, concurrencia de procesos, sistemas de archivos, protocolos de comunicación en red (TCP/IP) y conceptos de conectividad cliente-servidor.
+              </p>
+              <div class="timeline-tags">
+                <span>Gestión de Procesos</span>
+                <span>Protocolos</span>
+                <span>Cliente-Servidor</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Elemento 6: Ingeniería de Software -->
+          <div class="timeline-node reveal-on-scroll delay-3">
+            <div class="timeline-marker">
+              <div class="marker-circle">
+                <i class="fa-solid fa-diagram-project"></i>
+              </div>
+            </div>
+            <div class="timeline-card glass-card">
+              <span class="timeline-category">Área Metodológica</span>
+              <h3 class="timeline-title">Ingeniería de Software</h3>
+              <p class="timeline-desc">
+                Estudio del ciclo de vida del software, análisis de requerimientos, documentación técnica, control de versiones colaborativo y buenas prácticas para la mantenibilidad del código.
+              </p>
+              <div class="timeline-tags">
+                <span>Ciclo de Vida</span>
+                <span>Requerimientos</span>
+                <span>Buenas Prácticas</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         6. ÁREAS DE INTERÉS (Ilustraciones Técnicas SVG Animadas - Sin Emojis)
+         ========================================================================= -->
+    <section class="section interests-section" id="intereses">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag"><i class="fa-solid fa-compass"></i> Exploración & Metas</span>
+          <h2 class="section-title">Áreas que me <span class="gradient-text">interesan</span></h2>
+          <p class="section-subtitle">
+            Campos del desarrollo tecnológico en los que busco profundizar y proyectar mi futuro profesional.
+          </p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="interests-grid">
+          
+          <!-- 1. Desarrollo de Software -->
+          <div class="interest-card glass-card reveal-on-scroll">
+            <div class="interest-visual-wrap">
+              <svg class="tech-svg" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Ilustración técnica de desarrollo de software">
+                <rect x="8" y="12" width="54" height="46" rx="8" class="svg-stroke-base" stroke-width="2"/>
+                <line x1="8" y1="24" x2="62" y2="24" class="svg-stroke-subtle" stroke-width="1.5"/>
+                <circle cx="16" cy="18" r="2.5" class="svg-dot-accent"/>
+                <circle cx="23" cy="18" r="2.5" class="svg-dot-subtle"/>
+                <circle cx="30" cy="18" r="2.5" class="svg-dot-subtle"/>
+                <path d="M22 36L16 42L22 48" class="svg-path-accent" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M38 36L44 42L38 48" class="svg-path-accent" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+                <line x1="32" y1="34" x2="28" y2="50" class="svg-slash-glow" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="interest-title">Desarrollo de Software</h3>
+            <p class="interest-desc">
+              Construir aplicaciones sólidas, modulares y confiables, aplicando patrones de diseño y lógica clara orientada a resultados eficientes.
+            </p>
+          </div>
+
+          <!-- 2. Desarrollo Web -->
+          <div class="interest-card glass-card reveal-on-scroll delay-1">
+            <div class="interest-visual-wrap">
+              <svg class="tech-svg" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Ilustración técnica de desarrollo web">
+                <circle cx="35" cy="35" r="25" class="svg-stroke-base" stroke-width="2"/>
+                <ellipse cx="35" cy="35" rx="13" ry="25" class="svg-stroke-subtle" stroke-width="1.5"/>
+                <line x1="10" y1="35" x2="60" y2="35" class="svg-stroke-subtle" stroke-width="1.5"/>
+                <line x1="15" y1="23" x2="55" y2="23" class="svg-stroke-faint" stroke-width="1.2" stroke-dasharray="3 3"/>
+                <line x1="15" y1="47" x2="55" y2="47" class="svg-stroke-faint" stroke-width="1.2" stroke-dasharray="3 3"/>
+                <circle cx="48" cy="23" r="3.5" class="svg-pulse-node"/>
+              </svg>
+            </div>
+            <h3 class="interest-title">Desarrollo Web</h3>
+            <p class="interest-desc">
+              Crear sitios y aplicaciones accesibles, con código limpio y una experiencia de navegación fluida en cualquier navegador o pantalla.
+            </p>
+          </div>
+
+          <!-- 3. Desarrollo Móvil -->
+          <div class="interest-card glass-card reveal-on-scroll delay-2">
+            <div class="interest-visual-wrap">
+              <svg class="tech-svg" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Ilustración técnica de desarrollo móvil">
+                <rect x="20" y="8" width="30" height="54" rx="7" class="svg-stroke-base" stroke-width="2"/>
+                <line x1="29" y1="14" x2="41" y2="14" class="svg-stroke-subtle" stroke-width="2" stroke-linecap="round"/>
+                <rect x="25" y="20" width="20" height="28" rx="3" class="svg-fill-screen" stroke-width="1"/>
+                <circle cx="35" cy="54" r="2.5" class="svg-dot-accent"/>
+                <path d="M54 22C57 26 57 32 54 36" class="svg-signal-wave wave-1" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M58 17C63 23 63 35 58 41" class="svg-signal-wave wave-2" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="interest-title">Desarrollo Móvil</h3>
+            <p class="interest-desc">
+              Diseñar aplicaciones nativas y multiplataforma que acompañen al usuario en su día a día con agilidad, funcionalidad y comodidad.
+            </p>
+          </div>
+
+          <!-- 4. Bases de Datos -->
+          <div class="interest-card glass-card reveal-on-scroll">
+            <div class="interest-visual-wrap">
+              <svg class="tech-svg" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Ilustración técnica de bases de datos">
+                <ellipse cx="35" cy="18" rx="22" ry="7" class="svg-stroke-base" stroke-width="2"/>
+                <path d="M13 18V32C13 35.8 22.8 39 35 39C47.2 39 57 35.8 57 32V18" class="svg-stroke-base" stroke-width="2"/>
+                <path d="M13 32V46C13 49.8 22.8 53 35 53C47.2 53 57 49.8 57 46V32" class="svg-stroke-base" stroke-width="2"/>
+                <circle cx="21" cy="33" r="2" class="svg-dot-accent pulse-led-1"/>
+                <circle cx="27" cy="33" r="2" class="svg-dot-subtle"/>
+                <circle cx="21" cy="47" r="2" class="svg-dot-accent pulse-led-2"/>
+                <circle cx="27" cy="47" r="2" class="svg-dot-subtle"/>
+              </svg>
+            </div>
+            <h3 class="interest-title">Bases de Datos</h3>
+            <p class="interest-desc">
+              Organizar, modelar y consultar volúmenes de datos con coherencia, rapidez y seguridad, siendo el núcleo de cualquier sistema confiable.
+            </p>
+          </div>
+
+          <!-- 5. Resolución de Problemas -->
+          <div class="interest-card glass-card reveal-on-scroll delay-1">
+            <div class="interest-visual-wrap">
+              <svg class="tech-svg" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Ilustración técnica de resolución de problemas">
+                <circle cx="35" cy="16" r="6" class="svg-node-primary"/>
+                <circle cx="18" cy="48" r="5.5" class="svg-node-secondary"/>
+                <circle cx="52" cy="48" r="5.5" class="svg-node-secondary"/>
+                <path d="M35 22V32M35 32L21 44M35 32L49 44" class="svg-circuit-track" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="35" cy="32" r="3" class="svg-pulse-node"/>
+                <path d="M18 54L35 60L52 54" class="svg-stroke-subtle" stroke-width="1.5" stroke-dasharray="3 3"/>
+              </svg>
+            </div>
+            <h3 class="interest-title">Resolución de Problemas</h3>
+            <p class="interest-desc">
+              Descomponer retos complejos en pasos lógicos manejables, buscando siempre soluciones estructuradas, analíticas y elegantes.
+            </p>
+          </div>
+
+          <!-- 6. Diseño de Interfaces -->
+          <div class="interest-card glass-card reveal-on-scroll delay-2">
+            <div class="interest-visual-wrap">
+              <svg class="tech-svg" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Ilustración técnica de diseño de interfaces">
+                <rect x="12" y="12" width="34" height="26" rx="4" class="svg-stroke-subtle" stroke-width="1.8"/>
+                <rect x="24" y="24" width="34" height="26" rx="4" class="svg-stroke-base" stroke-width="2"/>
+                <circle cx="30" cy="32" r="2.5" class="svg-dot-accent"/>
+                <line x1="37" y1="32" x2="50" y2="32" class="svg-stroke-subtle" stroke-width="2" stroke-linecap="round"/>
+                <line x1="30" y1="40" x2="46" y2="40" class="svg-stroke-faint" stroke-width="2" stroke-linecap="round"/>
+                <path d="M46 38L54 54L48 56L42 50L46 38Z" class="svg-pen-cursor" stroke-width="1.5" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 class="interest-title">Diseño de Interfaces</h3>
+            <p class="interest-desc">
+              Cuidar la estética visual, la jerarquía de los elementos y la tipografía para que la interacción humana con la tecnología sea agradable e intuitiva.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         7. FRASE / SECCIÓN PERSONAL
+         ========================================================================= -->
+    <section class="quote-section" aria-label="Filosofía Personal">
+      <div class="container">
+        <div class="quote-wrapper glass-card reveal-on-scroll">
+          <div class="quote-decoration quote-left" aria-hidden="true">&ldquo;</div>
+          <p class="quote-text">
+            Aprender, crear y mejorar <span class="gradient-text">constantemente.</span>
+          </p>
+          <div class="quote-author-bar">
+            <span class="author-line"></span>
+            <span class="author-tag">Filosofía de Aprendizaje • Dassia</span>
+            <span class="author-line"></span>
+          </div>
+          <div class="quote-decoration quote-right" aria-hidden="true">&rdquo;</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         8. CONTACTO
+         ========================================================================= -->
+    <section class="section contact-section" id="contacto">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag"><i class="fa-solid fa-paper-plane"></i> Punto de Encuentro</span>
+          <h2 class="section-title">Conect<span class="gradient-text">emos</span></h2>
+          <p class="section-subtitle">
+            Si deseas conversar sobre tecnología, compartir aprendizajes o seguir mi crecimiento profesional, estaré encantada de conectar contigo.
+          </p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="contact-box glass-card reveal-on-scroll">
+          
+          <div class="contact-message">
+            <div class="contact-icon-ring">
+              <i class="fa-solid fa-comments"></i>
+            </div>
+            <h3 class="contact-prompt">¡Sigamos en contacto!</h3>
+            <p class="contact-subprompt">
+              Puedes encontrarme y seguir mis actividades en mis diferentes plataformas y redes sociales:
+            </p>
+          </div>
+
+          <!-- Redes Sociales solicitadas con placeholders claramente identificables -->
+          <div class="social-networks-grid">
+            
+            <!-- GitHub -->
+            <a href="https://github.com/DassiaDev" target="_blank" rel="noopener noreferrer" class="social-btn github-btn" aria-label="Visitar perfil de GitHub de Dassia">
+              <div class="social-btn-inner">
+                <i class="fa-brands fa-github"></i>
+                <div class="social-text">
+                  <span class="social-name">GitHub</span>
+                  <span class="social-handle">@Dassia Miranda</span>
+                </div>
+              </div>
+              <i class="fa-solid fa-arrow-up-right-from-square external-icon" aria-hidden="true"></i>
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/dassiamirandax" target="_blank" rel="noopener noreferrer" class="social-btn instagram-btn" aria-label="Visitar perfil de Instagram de Dassia">
+              <div class="social-btn-inner">
+                <i class="fa-brands fa-instagram"></i>
+                <div class="social-text">
+                  <span class="social-name">Instagram</span>
+                  <span class="social-handle">@dassiamirandax</span>
+                </div>
+              </div>
+              <i class="fa-solid fa-arrow-up-right-from-square external-icon" aria-hidden="true"></i>
+            </a>
+
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/DassiaDev" target="_blank" rel="noopener noreferrer" class="social-btn facebook-btn" aria-label="Visitar perfil de Facebook de Dassia">
+              <div class="social-btn-inner">
+                <i class="fa-brands fa-facebook-f"></i>
+                <div class="social-text">
+                  <span class="social-name">Facebook</span>
+                  <span class="social-handle">Dassia Miranda</span>
+                </div>
+              </div>
+              <i class="fa-solid fa-arrow-up-right-from-square external-icon" aria-hidden="true"></i>
+            </a>
+
+          </div>
+
+          <div class="contact-notice">
+            <i class="fa-solid fa-circle-info"></i>
+            <span>Enlaces listos para vincular con mis cuentas oficiales.</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       9. FOOTER
+       ========================================================================= -->
+  <footer class="footer">
+    <div class="container footer-container">
+      
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#inicio" class="footer-logo">
+            <span class="logo-symbol">&lt;/&gt;</span>
+            <span class="logo-name">Dassia<span class="logo-dot">.</span></span>
+          </a>
+          <p class="footer-role">Estudiante de Desarrollo de Software</p>
+          <p class="footer-motto">
+            "Construyendo mi camino en el mundo del desarrollo de software."
+          </p>
+        </div>
+
+        <div class="footer-socials">
+          <a href="https://github.com/DassiaDev" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.instagram.com/dassiamirandax" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/DassiaDev" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          Dassia &copy; <span id="currentYear">2026</span>
+        </p>
+        <p class="footer-attribution">
+          Diseñado con estética tecnológica &bull; Enfocado en el aprendizaje continuo
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Botón Volver Arriba -->
+  <button class="back-to-top" id="backToTop" aria-label="Volver al inicio de la página">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Script JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
